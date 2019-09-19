@@ -8,11 +8,8 @@ def load_library(emoticons)
 
   emoticons.each do |key, value|
     new_hash[:get_meaning][value[1]] = key
-    #the number [1] talks about emoticon positions, then places it as equal to key position with array within the hash that we're creating
-    #new_hash[:get_emoticon][value[0]] = emoticons[key][1]
-    binding.pry 
+    #the number [1] talks about emoticon ARRAY positions, then places it as equal to key position with hash that we're creating
     new_hash[:get_emoticon][value[0]] = emoticons[key][1]
-
 
   end
   new_hash
