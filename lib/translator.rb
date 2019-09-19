@@ -26,5 +26,5 @@ end
 
 def get_english_meaning(file_path, value)
   load_library(file_path)
-  emoticon_on_demand = load_library(file_path)[:get_meaning][value]
+  #emoticon_on_demand = load_library(file_path)[:get_meaning][value]
 end
