@@ -17,7 +17,7 @@ end
 
 def get_japanese_emoticon(file_path, emoticons)
   load_library(file_path)
-  grinning 
+  [:get_emoticon]["grinning"] 
 end
 
 def get_english_meaning
