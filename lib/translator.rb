@@ -21,7 +21,6 @@ def get_japanese_emoticon(file_path, emoticon)
     emoticon_on_demand = load_library(file_path)[:get_emoticon][emoticon]
   else false "Sorry, that emoticon was not found"
   end
-   emoticon_on_demand
 end
 
 def get_english_meaning
