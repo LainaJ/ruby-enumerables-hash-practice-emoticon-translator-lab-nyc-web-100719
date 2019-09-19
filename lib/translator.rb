@@ -12,8 +12,8 @@ def load_library(emoticons)
     #new_hash[:get_emoticon][value[0]] = emoticons[key][1]
     binding.pry 
     new_hash[:get_emoticon][value[0]] = emoticons[key][1]
-    
-    
+
+
   end
   new_hash
 end
