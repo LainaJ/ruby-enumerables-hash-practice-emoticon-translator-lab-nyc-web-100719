@@ -24,7 +24,7 @@ def get_japanese_emoticon(file_path, emoticon)
   end
 end
 
-def get_english_meaning(file_path, value)
+def get_english_meaning(file_path, emoticon)
   load_library(file_path)
-  #emoticon_on_demand = load_library(file_path)[:get_meaning][value]
+  emoticon_on_demand = load_library(file_path)[:get_meaning][emoticon]
 end
